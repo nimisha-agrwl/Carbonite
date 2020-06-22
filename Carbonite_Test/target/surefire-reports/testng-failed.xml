@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crb.util.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Carbonite Test(failed)">
+    <classes>
+      <class name="com.crb.tests.Tc_SignUp_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validateSignUpFormTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.crb.tests.Tc_SignUp_001 -->
+    </classes>
+  </test> <!-- Carbonite Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

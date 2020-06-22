@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 85.407 s <<< FAILURE! - in TestSuite
+validateSignUpFormTest(com.crb.tests.Tc_SignUp_001)  Time elapsed: 0.913 s  <<< FAILURE!
+java.lang.AssertionError: Email doesn't match confirm Email expected [true] but found [false]
+	at com.crb.tests.Tc_SignUp_001.validateSignUpFormTest(Tc_SignUp_001.java:61)
+
+validateSignUpFormTest(com.crb.tests.Tc_SignUp_001)  Time elapsed: 0.787 s  <<< FAILURE!
+java.lang.AssertionError: Password doesn't match confirm Password expected [true] but found [false]
+	at com.crb.tests.Tc_SignUp_001.validateSignUpFormTest(Tc_SignUp_001.java:65)
+
+validateSignUpFormTest(com.crb.tests.Tc_SignUp_001)  Time elapsed: 1.527 s  <<< FAILURE!
+java.lang.AssertionError: Password doesn't match confirm Password expected [true] but found [false]
+	at com.crb.tests.Tc_SignUp_001.validateSignUpFormTest(Tc_SignUp_001.java:65)
+
